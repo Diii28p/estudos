@@ -1,0 +1,23 @@
+
+        body {
+            background-color:lightgoldenrodyellow;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h1{
+            color: rgba(63, 32, 6, 0.774);
+            font-size: 1.5em;
+            background-color: rgb(236, 204, 114);
+        }
+
+        h2{
+            color:darkred;
+            font-size: 1.2em;
+        }
+
+        p{
+            text-align: justify;
+        }
+        
+
