@@ -1,0 +1,122 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+body {
+    width: 1280px;
+    height: 720px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: HYWenhei, regular;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.slide {
+    display: flex;
+    width: max-content;
+
+    animation: slide 120s linear infinite;
+}
+
+.slide img {
+    width: 33.33%;
+    height: 100vh;
+    object-fit: cover;
+    filter: blur(8px);
+    animation: slider time infinite;
+}
+
+@keyframes slide {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-300vw);
+    }
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    border-radius: 10px;
+    background-color: #5126e05b;
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+
+    background: linear-gradient(135deg, #ff4d6d, #ff8fa3);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: url('imagens/gato.png'), pointer;
+
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+html {
+    scroll-behavior: smooth;
+}

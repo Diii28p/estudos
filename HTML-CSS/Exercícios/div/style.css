@@ -1,0 +1,33 @@
+body {
+    background-color: #9ef192;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #156409;
+}
+
+h2 {
+    color: #1C860C
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #24A80F;
+}
+
+.basico {
+    color: rgb(98, 154, 98)
+}
+
+.intermediario {
+    color: rgb(187, 132, 29);
+}
+
+.avancado {
+    color: rgb(145, 3, 3);
+}
+
+.destaque {
+    background-color: rgba(167, 167, 87, 0.62);
+}
